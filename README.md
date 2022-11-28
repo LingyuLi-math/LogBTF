@@ -2,13 +2,13 @@
 
 ![Screenshot](Data/framework.jpg)
 
-This work propose an **embedded Boolean threshold network model by aggregating logistic regression with Boolean threshold function (LogBTF)** for inferring gene regulatory networks from single-cell gene expression data. 
+This work proposes an **embedded Boolean threshold network model by aggregating logistic regression with Boolean threshold function (LogBTF)** to infer gene regulatory networks from single-cell gene expression data. 
 
 
 ## LogBTF
 <!--START_SECTION:news-->
 <!--* **LogBTF**: A **embedded Boolean threshold network model (LogBTF)** is proposed to infer **gene regulatory networks (GRNs)**. -->
-* **Comparison study**, the proposed **LogBTF** method results in better inference performance than one regression-based method **SINCERITIES**, two ordinary differential equation-based methods **GRISLI** and **SCODE**, two miscellaneous methods **GENIE3** and **TIGRESS**, two correlation-based methods **ARACNE** and **CLR**.
+* **Comparison**: the proposed method **LogBTF** results in better inference performance than one regression-based method **SINCERITIES**, two ordinary differential equation-based methods **GRISLI** and **SCODE**, two miscellaneous methods **GENIE3** and **TIGRESS**, two correlation-based methods **ARACNE** and **CLR**.
 * **Reminder**: Before running all programs, you need to **modify the path of the folder** where the corresponding input or output data or function is located.
 * If you have any questions about **LogBTF**, please directly contact the corresponding author [Prof. Zhi-Ping Liu](https://scholar.google.com/citations?user=zkBXb_kAAAAJ&hl=zh-CN&oi=ao) with the E-mail: zpliu@sdu.edu.cn
 <!--END_SECTION:news-->
@@ -81,7 +81,7 @@ The **serial number (1), (2), ..., (13)** represents the order in which the prog
 * (12) ``BarBoxPlot.R`` -- Visualize results of simulated single-cell (or bulk) and two real scRNA-seq data.
 * (13) ``LMPPGlmPenalty0803.R``  --  LogBTF method on LMPP dataset.
     ```ruby
-    LogBTF method, compare with SINCERITIES ``LMPPGlmPenalty0803SINCERITIES.R``
+    LogBTF method, compare with SINCERITIES 'LMPPGlmPenalty0803SINCERITIES.R'
     ```
  compare with SINCERITIES .
 <!--END_SECTION:news-->
