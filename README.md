@@ -82,31 +82,32 @@ The **serial number (1), (2), ..., (14)** represents the order in which the prog
 ## Python packages.
 * [boolean2]( https://github.com/janlelis/boolean2) (v1.0.1). For updated node’s state at next time point.
 
-## boolean2 Setup
-Add to your `Gemfile`:
 
-```ruby
-gem 'boolean2'
-```
-
-## boolean2 Usage
-```ruby
-true.is_a? Boolean2 #=> true
-false.is_a? Boolean2 #=> true
-nil.is_a? Boolean2 #=> false
-Object.new.is_a? Boolean2 #=> false
-
-true.to_boolean2 #=> true
-false.to_boolean2 #=> false
-nil.to_boolean2 #=> false
-Object.new.to_boolean2 #=> true
-
-Boolean2.new(true) #=> true
-Boolean2.new(false) #=> false
-Boolean2.new(nil) #=> false
-Boolean2.new(Object.new) #=> true
-```
-
+<!--## boolean2 Setup-->
+<!--Add to your `Gemfile`:-->
+<!---->
+<!--```ruby-->
+<!--gem 'boolean2'-->
+<!--```-->
+<!---->
+<!--## boolean2 Usage-->
+<!--```ruby-->
+<!--true.is_a? Boolean2 #=> true-->
+<!--false.is_a? Boolean2 #=> true-->
+<!--nil.is_a? Boolean2 #=> false-->
+<!--Object.new.is_a? Boolean2 #=> false-->
+<!---->
+<!--true.to_boolean2 #=> true-->
+<!--false.to_boolean2 #=> false-->
+<!--nil.to_boolean2 #=> false-->
+<!--Object.new.to_boolean2 #=> true-->
+<!---->
+<!--Boolean2.new(true) #=> true-->
+<!--Boolean2.new(false) #=> false-->
+<!--Boolean2.new(nil) #=> false-->
+<!--Boolean2.new(Object.new) #=> true-->
+<!--```-->
+<!---->
 * [matplotlib.pyplot]( https://matplotlib.org/stable/tutorials/introductory/pyplot.html) (v3.6.2). 
 * [matplotlib.patches]( https://matplotlib.org/stable/api/patches_api.html) (v3.6.2). 
 * [pylab](https://www.javatpoint.com/python-pylab-module). 
