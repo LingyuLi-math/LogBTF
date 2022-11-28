@@ -8,7 +8,7 @@ In this work, an **embedded Boolean threshold network model by aggregating logis
 ## LogBTF
 <!--START_SECTION:news-->
 * **LogBTF**: A **embedded Boolean threshold network model (LogBTF)** is proposed to infer **gene regulatory networks (GRNs)**. 
-* In the comparison study, we also proved the proposed **LogBTF method** results in better inference performance than one regression-based method **SINCERITIES**, two ordinary differential equation-based methods: GRISLI and SCODE, two miscellaneous methods: **GENIE3** and **TIGRESS**, two correlation-based methods: **ARACNE** and **CLR**.
+* In the comparison study, we also proved the proposed **LogBTF method** results in better inference performance than one regression-based method **SINCERITIES**, two ordinary differential equation-based methods: **GRISLI** and **SCODE**, two miscellaneous methods: **GENIE3** and **TIGRESS**, two correlation-based methods: **ARACNE** and **CLR**.
 * **Reminder**: Before running all programs, you need to **modify the path of the folder** where the corresponding input or output data or function is located.
 * If you have any questions about **LogBTF**, please directly contact the corresponding author [Prof. Zhi-Ping Liu](https://scholar.google.com/citations?user=zkBXb_kAAAAJ&hl=zh-CN&oi=ao) with the E-mail: zpliu@sdu.edu.cn
 <!--END_SECTION:news-->
@@ -21,8 +21,9 @@ Li, Lingyu, et al. "**LogBTF: Gene regulatory network inference using Boolean th
 ## Data
 <!--START_SECTION:news-->
 * **Supplementary Materials** file present the necessary **Additional files** contained in our work.
-* **Data** file give some necessary input/output files by the **R/Matlab/Python** codes. The subfile **DREAM3_RealData2** is the Matsumoto RNA-seq data, and the subfile **DREAM3_RealData16** is the Specific hHEP scRNA-seq data.
-* Some of these input files only give the first few lines, limited by upload file size, but this does not affect the results of our work (**LogBTF**).
+* **Data** file give some necessary input/output files by the **R/Matlab/Python** codes. 
+<!--* The subfile **DREAM3_RealData2** is the Matsumoto RNA-seq data, and the subfile **DREAM3_RealData16** is the Specific hHEP scRNA-seq data.-->
+* Some of these input files only give the first few lines, limited by upload file size, but this does not affect the results of our work **LogBTF**.
 * **Cytoscape** file, we give the inferred LMPP gene regulatory network. 
 <!--END_SECTION:news-->
 
@@ -68,11 +69,11 @@ The **serial number (1), (2), ..., (14)** represents the order in which the prog
 * (4) scDataGenerate.R  --  Generate single-cell dataset based on GNW and plot the distribution of expression values.
 * (5) LogBTF.R  --  LogBTF method on the simulated dataset (Ecoli and Yeast1), where the single-cell data are based on bulk data, but for LogBTF methods, all of them are converted into Boolean value data.
 * (6) SCODE.R  --  SCODE method (based on MethodFuction.R) on simulated single-cell data, bulk data and real scRNA-seq data. 
-* (7) SINCERITIES.R  --  SINCERITIES method on simulated single-cell data, bulk data and real scRNA-seq data.
-* (8) GENIE3.R  --  GENIE3 method on simulated single-cell data, bulk data and real scRNA-seq data.
-* (9) TREGRESS.R  --  TREGRESS method on simulated single-cell data, bulk data and real scRNA-seq data.
-* (10) ARACNE  --  ARACNE method on simulated single-cell data, bulk data and real scRNA-seq data.
-* (11) CLR.R  --  CLR method on simulated single-cell data, bulk data and real scRNA-seq data.
+* (7) SINCERITIES.R  --  SINCERITIES method.
+* (8) GENIE3.R  --  GENIE3 method.
+* (9) TREGRESS.R  --  TREGRESS method.
+* (10) ARACNE  --  ARACNE method.
+* (11) CLR.R  --  CLR method.
 * (12) BarBoxPlot.R -- Visualize results of the simulated single-cell, bulk RNA-seq data and two real scRNA-seq data.
 * (13) LMPPGlmPenalty0803.R  --  LogBTF method on LMPP dataset, compare with SINCERITIES.
 * (14) LMPPGlmPenalty0803SINCERITIES.R  --  SINCERITIES method on LMPP dataset.
@@ -124,8 +125,8 @@ The **serial number (1), (2), ..., (14)** represents the order in which the prog
 
 ## Matlab codes
 <!--START_SECTION:news-->
-* pseudo-data-order.m  --  Order the single-cell according to pseudo-time information.
 * GRISLIscmain.m  --  The GRISLI method, which is implemented with MATLAB. 
+* pseudo-data-order.m  --  Order the single-cell according to pseudo-time information.
 * All other codes  --  They serve the main program GRISLIscmain. 
 <!--END_SECTION:news-->
 
