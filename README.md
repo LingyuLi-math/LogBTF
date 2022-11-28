@@ -111,10 +111,10 @@ Boolean2.new(Object.new) #=> true
 * [matplotlib.patches]( https://matplotlib.org/stable/api/patches_api.html) (v3.6.2). 
 * [pylab](https://www.javatpoint.com/python-pylab-module). 
 * [pandas](https://www.datacamp.com/tutorial/pandas) (v1.5.2).
-
-pip install pandas
-import pandas as pd
-
+    ```ruby
+    pip install pandas
+    import pandas as pd
+    ```
 ## Python codes
 <!--START_SECTION:news-->
 * mydataexam.py – The generated data for the next time point of Artificial data.
