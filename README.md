@@ -8,7 +8,7 @@ This work propose an **embedded Boolean threshold network model by aggregating l
 ## LogBTF
 <!--START_SECTION:news-->
 <!--* **LogBTF**: A **embedded Boolean threshold network model (LogBTF)** is proposed to infer **gene regulatory networks (GRNs)**. -->
-* **Comparison study**, it proved the proposed **LogBTF** nethod results in better inference performance than one regression-based method **SINCERITIES**, two ordinary differential equation-based methods: **GRISLI** and **SCODE**, two miscellaneous methods: **GENIE3** and **TIGRESS**, two correlation-based methods: **ARACNE** and **CLR**.
+* **Comparison study**, Proved the proposed **LogBTF** method results in better inference performance than one regression-based method **SINCERITIES**, two ordinary differential equation-based methods **GRISLI** and **SCODE**, two miscellaneous methods **GENIE3** and **TIGRESS**, two correlation-based methods **ARACNE** and **CLR**.
 * **Reminder**: Before running all programs, you need to **modify the path of the folder** where the corresponding input or output data or function is located.
 * If you have any questions about **LogBTF**, please directly contact the corresponding author [Prof. Zhi-Ping Liu](https://scholar.google.com/citations?user=zkBXb_kAAAAJ&hl=zh-CN&oi=ao) with the E-mail: zpliu@sdu.edu.cn
 <!--END_SECTION:news-->
@@ -22,7 +22,7 @@ Li, Lingyu, et al. "**LogBTF: Gene regulatory network inference using Boolean th
 <!--START_SECTION:news-->
 * **Data** file give some necessary input/output files by the **R/Matlab/Python** codes. 
 <!--* The subfile **DREAM3_RealData2** is the Matsumoto RNA-seq data, and the subfile **DREAM3_RealData16** is the Specific hHEP scRNA-seq data.-->
-* Some of these input files only give the **first few lines**, limited by upload file size, but this does not affect the results of our work **LogBTF**.
+* Some input files only give the **first few lines**, limited by upload file size, but this does not affect the results.
 * **Supplementary Materials** file present the necessary **Additional files** contained in our work.
 * **Cytoscape** file give the inferred LMPP gene regulatory network. 
 <!--END_SECTION:news-->
@@ -72,14 +72,18 @@ The **serial number (1), (2), ..., (13)** represents the order in which the prog
     To test LogBTF model, simply uses the script 'LogBTF.R', 
     which is based on 'LogBTFmainfunction.R'
     ```
-* (6) ``SCODE.R``  --  SCODE method (based on MethodFuction.R) on simulated single-cell data, bulk data and real scRNA-seq data. 
+* (6) ``SCODE.R``  --  SCODE method (based on ``MethodFuction.R``). 
 * (7) ``SINCERITIES.R``  --  SINCERITIES method.
-* (8) ``GENIE3.R``  --  GENIE3 method.
+* (8) ``GENIE3.R``  --  GENIE3 method (based on ``MethodFuction.R``).
 * (9) ``TREGRESS.R``  --  TREGRESS method.
 * (10) ``ARACNE``  --  ARACNE method.
 * (11) ``CLR.R``  --  CLR method.
 * (12) ``BarBoxPlot.R`` -- Visualize results of simulated single-cell (or bulk) and two real scRNA-seq data.
-* (13) ``LMPPGlmPenalty0803.R``  --  LogBTF method on LMPP dataset, compare with SINCERITIES ``LMPPGlmPenalty0803SINCERITIES.R``.
+* (13) ``LMPPGlmPenalty0803.R``  --  LogBTF method on LMPP dataset.
+    ```ruby
+    LogBTF method, compare with SINCERITIES ``LMPPGlmPenalty0803SINCERITIES.R``
+    ```
+ compare with SINCERITIES .
 <!--END_SECTION:news-->
 
 
@@ -122,7 +126,7 @@ The **serial number (1), (2), ..., (13)** represents the order in which the prog
     ```
 ## Python codes
 <!--START_SECTION:news-->
-* mydataexam.py – The generated data for the next time point of Artificial data.
+* ``mydataexam.py`` -- The generated data for the next time point of Artificial data.
 <!--END_SECTION:news-->
 
 
